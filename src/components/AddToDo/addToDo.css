@@ -1,0 +1,32 @@
+.addToDoContent {
+  width: 800px;
+  height: 90px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-rows: 20px 1fr;
+  gap: 5px;
+}
+
+.addToDoContent form {
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 5px;
+}
+
+.addToDoContent form input {
+  padding: 0 5px;
+  outline: none;
+  border: 1px solid gray;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 0 5px rgb(91, 91, 91);
+  border-radius: 5px;
+}
+
+.addToDoContent form button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(3, 63, 43);
+  color: white;
+  border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+.toDoItemContent {
+  width: 100%;
+  box-shadow: 0 0 3px rgb(112, 3, 21);
+  display: grid;
+  grid-template-rows: 40px 40px 40px 1fr;
+  gap: 5px;
+  padding: 5px;
+}
+
+.toDoItemContent div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toDoItemContent div p {
+  font-size: 18px;
+}
+
+.toDoItemContent div button {
+  border: none;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 0 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toDoItemContent img {
+  width: 40%;
+  height: 80px;
+  margin-left: 70px;
+}
